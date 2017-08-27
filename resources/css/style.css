@@ -118,3 +118,41 @@ h4 {
   height: 200px;
   width: 300px;
 }
+
+/* Locations */
+
+.section.bottom {
+  display: flex;
+  width: 1200px;
+  height: 570px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-back.bottom {
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 980px;
+  margin-top: 15px;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.branch h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
