@@ -4,6 +4,7 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
 }
 
 /* Header */
@@ -87,6 +88,7 @@ h4 {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .specials {
@@ -122,16 +124,10 @@ h4 {
 /* Locations */
 
 .section.bottom {
-  display: flex;
   width: 1200px;
-  height: 570px;
+  height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  justify-content: center;
-  align-items: center;
-}
-
-.photo-back.bottom {
-  text-align: center;
+  padding-top: 70px;
 }
 
 .locations {
@@ -139,7 +135,7 @@ h4 {
   justify-content: space-between;
   align-items: center;
   width: 980px;
-  margin-top: 15px;
+  margin: 15px auto 0px auto;
 }
 
 .branch {
@@ -149,10 +145,30 @@ h4 {
   align-content: center;
   background-color: black;
   width: 300px;
-  height: 300px;
+  height: 280px;
 }
 
 .branch h3 {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+/* Bottom */
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact h5 {
+  margin-bottom: 15px;
+}
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
 }
